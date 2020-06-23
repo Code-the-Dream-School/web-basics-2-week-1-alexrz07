@@ -35,7 +35,7 @@ console.log(classCourse);
 
 const firstName = 'Alex';
 const lastName = 'Rodriguez';
-console.log(firstName + ' ' + lastName);
+console.log(`${firstName} ${lastName} `);
 
 
 
@@ -118,7 +118,7 @@ console.log(myFunction());
  * Example Output: "I called an arrow function!"
  */
 
-myArrowFuction = () => {
+const myArrowFuction = () => {
     return "I miss my morning coffee!";
 }
 
@@ -141,7 +141,7 @@ console.log(myArrowFuction());
 
 let str = "Ctd Rocks 🤘🏼!";
 
-stringToUpper = (str) => {
+const stringToUpper = (str) => {
     return str.toUpperCase();
 }
 
@@ -165,7 +165,7 @@ console.log(stringToUpper(str));
  *
  * Example Output: 2, 10, 20
  */
-multiplyByTwo = (number) => {
+const multiplyByTwo = (number) => {
     return number * 2;
 
 }
